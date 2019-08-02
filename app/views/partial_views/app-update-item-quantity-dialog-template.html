@@ -1,0 +1,40 @@
+ <div class="item-panel-container item-panel-dialog-container">
+        <div class="item-panel">
+            <div class="item-title-dialog">
+                <span>UPDATE ITEM</span>
+            </div>
+            <div class="item-image-container">
+                <img class="item-image" ng-src="{{itemDetails.imagePath}}" />
+            </div>
+            <div class="item-details">
+                <div class="item-name">
+                    <span class="name">{{itemDetails.name}}</span>
+                    <span> {{itemDetails.dimension}}</span>
+                </div>
+                <div class="item-quantity">
+                    <span>({{itemDetails.quantity}}) Items Left</span>
+                </div>
+                <div class="item-stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <div class="item-price">
+                    <span class="price-label">Price:</span>
+                    <span class="current-price"> £{{itemDetails.current_price}}</span>&nbsp;
+                    <span class="old-price" ng-show="item.hasNewPrice">(£{{item.old_price}})</span>
+                </div>
+                <div class="item-footer">
+                    <div class="add-item-quantity-controls">
+                        <button class="btn btn-warning" ng-click="subtractQuantity()"><i class="fa fa-minus"></i></button>
+                        <input type="text" class="form-control txt-item-quantity" ng-model="selectedQuantity">
+                        <button class="btn btn-success" ng-click="addQuantity()"><i class="fa fa-plus"></i></button>
+                    </div>
+                    <div class="item-buttons">
+                        <button ng-click="closeDialog(true)" class="btn btn-primary" ng-disabled="invalidQuantity || selectedQuantity === 0">Confirm</button>
+                        <button ng-click="closeDialog(false)" class="btn btn btn-secondary">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>

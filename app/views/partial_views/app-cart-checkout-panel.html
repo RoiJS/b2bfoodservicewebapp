@@ -1,0 +1,38 @@
+<div ng-controller="AppCartCheckoutPanelController as checkoutVm" class="check-out-panel">
+    <div class="check-out-panel-header">
+
+        <div ng-show="checkoutVm.invalidVoucher" class="alert alert-danger" role="alert">
+            Invalid voucher code. Please enter a valid one.
+        </div>
+        <div ng-show="checkoutVm.notEligibleForVoucherDiscount" class="alert alert-warning" role="alert">
+            You are not eligible for the voucher discount because your total amount purchased is less than £100.
+        </div>
+        <div ng-show="checkoutVm.activatedVoucher" class="alert alert-success" role="alert">
+            You have successfully activated your voucher. You have now received your £20 off from your total purchased
+            amount.
+        </div>
+        <div ng-show="checkoutVm.multipleVoucherActivation" class="alert alert-danger" role="alert">
+            You have already used your voucher.
+        </div>
+
+        <span class="header-title">Order Summary</span>
+    </div>
+    <div class="check-out-panel-body">
+        <div class="order-subtotal">
+            <span>Subtotal:</span>
+            <span>£{{checkoutVm.subtotalAmount}}</span>
+        </div>
+        <div class="voucher-control">
+            <input type="text" class="form-control" ng-model="checkoutVm.txtVoucherCode"
+                placeholder="Enter voucher&hellip;">
+            <button class="btn btn-primary" ng-click="checkoutVm.verifyVoucherCode()">Apply Voucher</button>
+        </div>
+        <div class="order-total">
+            <span>Total:</span>
+            <span>£{{checkoutVm.totalNetAmount}}</span>
+        </div>
+    </div>
+    <div class="check-out-panel-footer">
+        <button class="btn btn-warning btn-proceed-checkout"><i class="fa fa-credit-card"></i> Proceed Checkout</button>
+    </div>
+</div>

@@ -1,0 +1,31 @@
+.app-title-section {
+    margin: 1.5em 0;
+}
+
+.app-title-section .app-title-page {
+    font-size: 1.5em;
+    font-weight: 600;
+}
+
+.app-panel {
+    display: flex;
+    flex-direction: column;
+    padding: 1em;
+    border: 1px solid #b1b1b1;
+    box-shadow: 1px 1px 5px #afafaf;
+    border-radius: 10px;
+}
+
+.app-panel:hover {
+    box-shadow: 1px 1px 20px #afafaf;
+}
+
+.app-footer {
+    height: 80px;
+    margin-top: 2em;
+    background-color: #007bff;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-size: 1em;
+}

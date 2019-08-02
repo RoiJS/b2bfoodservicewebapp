@@ -1,0 +1,35 @@
+.check-out-panel {
+    border: 1px solid;
+    padding: 1em;
+}
+
+.check-out-panel .check-out-panel-header {
+    padding-bottom: 1em;
+    border-bottom: 1px solid;
+}
+
+.check-out-panel .check-out-panel-header span.header-title {
+    font-size: 1.2em;
+    font-weight: 600;
+}
+
+.check-out-panel .check-out-panel-body .order-subtotal, 
+.check-out-panel .check-out-panel-body .order-total {
+    padding: 1em 0;
+    display: flex;
+    justify-content: space-between;
+    font-weight: 600;
+}
+
+.check-out-panel .check-out-panel-body .voucher-control {
+    display: flex;
+    justify-content: space-between;
+}
+
+.check-out-panel .check-out-panel-body .voucher-control input {
+    width: 65%;
+}
+
+.check-out-panel .check-out-panel-footer .btn-proceed-checkout {
+    width: 100%;
+}

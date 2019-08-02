@@ -1,0 +1,28 @@
+{
+    "orders": [
+        {
+            "itemId": 12,
+            "categoryId": 4,
+            "quantity": 2,
+            "amount": 71.4
+        },
+        {
+            "itemId": 8,
+            "categoryId": 3,
+            "quantity": 2,
+            "amount": 16.6
+        },
+        {
+            "itemId": 1,
+            "categoryId": 1,
+            "quantity": 2,
+            "amount": 9
+        },
+        {
+            "itemId": 1,
+            "categoryId": 1,
+            "quantity": 1,
+            "amount": 4.5
+        }
+    ]
+}

@@ -1,0 +1,53 @@
+<div ng-controller="AppCartItemListController as cartItemVm">
+    <div class="row">
+        <div class="col">
+            <div ng-show="cartItemVm.orderItems.length === 0" class="alert alert-info" role="alert">
+                Empty shopping cart. Go to <a href="/">Categories</a> to purchase an item.
+            </div>
+        </div>
+    </div>
+    <div  class="row">
+        <div ng-repeat="order in cartItemVm.orderItems"
+            class="col-xl-6 col-lg-6 col-md-12 col-sm-12 item-panel-container">
+            <div class="item-panel">
+                <div class="item-image-container">
+                    <img class="item-image" ng-src="{{order.item.imagePath}}" />
+                </div>
+                <div class="item-details">
+                    <div class="item-name">
+                        <span class="name">{{order.item.name}}</span>
+                        <span> {{order.item.dimension}}</span>
+                    </div>
+                    <div class="item-quantity">
+                        <span>({{order.item.quantity}}) Items Left</span>
+                    </div>
+                    <div class="item-stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <div class="item-category">
+                        <span class="fa {{order.category.icon}}"></span> <span>{{order.category.name}}</span>
+                    </div>
+                    <div class="item-selected-quantity">
+                        <span class="selected-quantity-label">Selected Quantity:</span>
+                        <span class="total-quantity"> {{order.totalQuantity}}</span>&nbsp;
+                    </div>
+                    <div class="item-amount">
+                        <span class="amount-label">Total Amount:</span>
+                        <span class="total-amount"> £{{order.formatedTotalAmount}}</span>&nbsp;
+                    </div>
+                    <div class="item-footer">
+                        <button class="btn btn-success" ng-click="cartItemVm.openUpdateQuantityDialog($index)"><i
+                                class="fa fa-edit"></i> Update Quantity</button>
+                        <button class="btn btn-danger" ng-click="cartItemVm.removeItem($index)"><i
+                                class="fa fa-trash"></i>
+                            Remove</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+    </div>
+</div>

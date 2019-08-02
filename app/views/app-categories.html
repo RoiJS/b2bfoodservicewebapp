@@ -1,0 +1,33 @@
+<div class="container-fluid">
+    <div class="categories-container">
+        <div class="row app-title-section">
+            <div class="col app-title-page">
+                <i class="fa fa-list"></i> <span>CATEGORIES</span>
+            </div>
+        </div>
+        <div ng-controller="AppCategoriesController as categoriesVm" class="row">
+            <div ng-repeat="category in categoriesVm.categories"
+                class="col-xl-4 col-lg-6 col-md-12 col-sm-12 category-panel-container">
+                <div class="app-panel category-panel">
+                    <div class="category-item-images-container">
+                        <div class="category-items-images">
+                            <img class="item-image" ng-repeat="item in category.TruncatedItems"
+                                ng-src="{{item.imagePath}}" />
+                        </div>
+                    </div>
+                    <div class="category-item-details">
+                        <div class="category-name">
+                            <span>{{category.name}}</span>
+                        </div>
+                        <div class="category-description">
+                            <span>{{category.description}}</span>
+                        </div>
+                        <div class="category-footer">
+                            <a href="/categories/{{category.categoryId}}/items" class="btn btn-info">See Items</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

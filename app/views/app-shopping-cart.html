@@ -1,0 +1,24 @@
+<nav aria-label="breadcrumb">
+    <ol class="breadcrumb">
+        <li class="breadcrumb-item"><a href="/">Categories</a></li>
+        <li class="breadcrumb-item active" aria-current="page">Shopping Cart</li>
+    </ol>
+</nav>
+<div class="container-fluid">
+    <div class="items-container">
+
+        <div class="row app-title-section">
+            <div class="col app-title-page">
+                <i class="fa fa-shopping-cart"></i> <span>SHOPPING CART</span>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-xl-8 col-lg-8 col-md-7 col-sm-12">
+                <ng-include src="'/app/views/partial_views/app-cart-item-list-panel.html'"></ng-include>
+            </div>
+            <div class="col-xl-4 col-lg-4 col-md-5 col-sm-12">
+                    <ng-include src="'/app/views/partial_views/app-cart-checkout-panel.html'"></ng-include>
+            </div>
+        </div>
+    </div>
+</div>

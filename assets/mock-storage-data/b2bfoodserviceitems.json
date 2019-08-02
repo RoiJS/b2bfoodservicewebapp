@@ -1,0 +1,272 @@
+{
+    "categories": [
+        {
+            "categoryId": 1,
+            "name": "Meat & Poultry",
+            "icon": "fa-egg",
+            "description" : "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.",
+            "items": [
+                {
+                    "itemId": 1,
+                    "categoryId": 1,
+                    "name": "Chicken Fillets",
+                    "dimension": "6 x 100g",
+                    "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's",
+                    "image_path": "/MeatAndPoultry/chicken_fillet.png",
+                    "quantity": 12,
+                    "old_price":  4.50,
+                    "current_price":  4.50
+                }, 
+                {
+                    "itemId": 2,
+                    "categoryId": 1,
+                    "name": "Sirloin Steaks",
+                    "dimension": "4 x 6-8oz",
+                    "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's",
+                    "image_path": "/MeatAndPoultry/sirloin_steak.jpg",
+                    "quantity": 6,
+                    "old_price":  45.70,
+                    "current_price":  45.70
+                },  
+                {
+                    "itemId": 3,
+                    "categoryId": 1,
+                    "name": "Whole Free-Range Turkey",
+                    "dimension": "1 x 16-18lbs",
+                    "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's",
+                    "image_path": "/MeatAndPoultry/turkey.jpg",
+                    "quantity": 8,
+                    "old_price":  48.25,
+                    "current_price":  43.20
+                }
+            ]    
+        },
+        {
+            "categoryId": 2,
+            "name": "Fruit & Vegetables",
+            "icon": "fa-leaf",
+            "description" : "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.",
+            "items": [
+                {
+                    "itemId": 4,
+                    "categoryId": 2,
+                    "name": "Granny Smith Apples",
+                    "dimension": "4 x 16 each",
+                    "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's",
+                    "image_path": "/FruitAndVegetables/apples.jpg",
+                    "quantity": 0,
+                    "old_price":  3.75,
+                    "current_price":  3.75
+                }, 
+                {
+                    "itemId": 5,
+                    "categoryId": 2,
+                    "name": "Loose Carrots",
+                    "dimension": "4 x 20 each",
+                    "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's",
+                    "image_path": "/FruitAndVegetables/carrots.jpg",
+                    "quantity": 2,
+                    "old_price":  2.67,
+                    "current_price":  2.67
+                },  
+                {
+                    "itemId": 6,
+                    "categoryId": 2,
+                    "name": "Mandarin Oranges",
+                    "dimension": "6 x 10 x 12",
+                    "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's",
+                    "image_path": "/FruitAndVegetables/oranges.jpg",
+                    "quantity": 8,
+                    "old_price":  12.23,
+                    "current_price":  12.23
+                },
+                {
+                    "itemId": 7,
+                    "categoryId": 2,
+                    "name": "Cauliflower Florets",
+                    "dimension": "10 x 500g",
+                    "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's",
+                    "image_path": "/FruitAndVegetables/cauliflower_florets.jpeg",
+                    "quantity": 5,
+                    "old_price":  6.75,
+                    "current_price":  5.00
+                }
+            ]    
+        },
+        {
+            "categoryId": 3,
+            "name": "Drinks",
+            "icon": "fa-wine-bottle",
+            "description" : "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.",
+            "items": [
+                {
+                    "itemId": 8,
+                    "categoryId": 3,
+                    "name": "Coca-Cola",
+                    "dimension": "6 x 2L",
+                    "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's",
+                    "image_path": "/Drinks/coca-cola.jpg",
+                    "quantity": 6,
+                    "old_price":  8.50,
+                    "current_price":  8.30
+                }, 
+                {
+                    "itemId": 9,
+                    "categoryId": 3,
+                    "name": "Still Mineral Water",
+                    "dimension": "6 x 24 x 500ml",
+                    "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's",
+                    "image_path": "/Drinks/still_mineral_water.jpg",
+                    "quantity": 9,
+                    "old_price":  21.75,
+                    "current_price":  21.75
+                },  
+                {
+                    "itemId": 10,
+                    "categoryId": 3,
+                    "name": "Sparkling Mineral Water",
+                    "dimension": "6 x 24 x 500ml",
+                    "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's",
+                    "image_path": "/Drinks/sparkling_mineral_water.jpg",
+                    "quantity": 16,
+                    "old_price":  25.83 ,
+                    "current_price":  25.83
+                }
+            ]    
+        },
+        {
+            "categoryId": 4,
+            "name": "Confectionary & Desserts",
+            "icon": "fa-birthday-cake",
+            "description" : "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.",
+            "items": [
+                {
+                    "itemId": 11,
+                    "categoryId": 4,
+                    "name": "Mars Bar",
+                    "dimension": "6 x 24 x 50g",
+                    "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's",
+                    "image_path": "/ConfectionaryAndDesserts/mars-bar.jpg",
+                    "quantity": 4,
+                    "old_price":  42.82,
+                    "current_price":  42.82
+                }, 
+                {
+                    "itemId": 12,
+                    "categoryId": 4,
+                    "name": "Peppermint Chewing Gum",
+                    "dimension": "6 x 50 x 30g",
+                    "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's",
+                    "image_path": "/ConfectionaryAndDesserts/peppermint_chewing_gum.jpg",
+                    "quantity": 6,
+                    "old_price":  35.70,
+                    "current_price":  35.70
+                },  
+                {
+                    "itemId": 13,
+                    "categoryId": 4,
+                    "name": "Strawberry Cheesecake",
+                    "dimension": "4 x 12 portions",
+                    "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's",
+                    "image_path": "/ConfectionaryAndDesserts/strawberry_cheesecake.jpg",
+                    "quantity": 0,
+                    "old_price":  8.52,
+                    "current_price":  8.52 
+                },  
+                {
+                    "itemId": 14,
+                    "categoryId": 4,
+                    "name": "Vanilla Ice Cream",
+                    "dimension": "6 x 4L",
+                    "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's",
+                    "image_path": "/ConfectionaryAndDesserts/vanilla_ice_cream.jpg",
+                    "quantity": 0,
+                    "old_price":  8.52,
+                    "current_price":  8.52 
+                }
+            ]    
+        },
+        {
+            "categoryId": 5,
+            "name": "Baking/Cooking Ingredients",
+            "icon": "fa-bread-slice",
+            "description" : "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.",
+            "items": [
+                {
+                    "itemId": 15,
+                    "categoryId": 5,
+                    "name": "Plain Flour",
+                    "dimension": "10 x 1kg",
+                    "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's",
+                    "image_path": "/BakingCookingIngredients/plain_flour.jpeg",
+                    "quantity": 4,
+                    "old_price":  6.21,
+                    "current_price":  6.21
+                }, 
+                {
+                    "itemId": 16,
+                    "categoryId": 5,
+                    "name": "Icing Sugar",
+                    "dimension": "12 x 500g",
+                    "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's",
+                    "image_path": "/BakingCookingIngredients/icing_sugar.jpg",
+                    "quantity": 6,
+                    "old_price":  9.38,
+                    "current_price":  9.38
+                },  
+                {
+                    "itemId": 17,
+                    "categoryId": 5,
+                    "name": "Free-Range Eggs",
+                    "dimension": "10 x 12 each",
+                    "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's",
+                    "image_path": "/BakingCookingIngredients/free_range_eggs.png",
+                    "quantity": 9,
+                    "old_price":  9.52,
+                    "current_price":  9.52 
+                },  
+                {
+                    "itemId": 18,
+                    "categoryId": 5,
+                    "name": "Caster Sugar",
+                    "dimension": "16 x 750g",
+                    "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's",
+                    "image_path": "/BakingCookingIngredients/caster_sugar.jpg",
+                    "quantity": 13,
+                    "old_price":  12.76 ,
+                    "current_price":  12.76
+                }
+            ]    
+        },
+        {
+            "categoryId": 6,
+            "name": "Miscellaneous Items",
+            "icon": "fa-utensils",
+            "description" : "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.",
+            "items": [
+                {
+                    "itemId": 20,
+                    "categoryId": 6,
+                    "name": "Kitchen Roll",
+                    "dimension": "100 x 300 sheets",
+                    "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's",
+                    "image_path": "/MiscellaneousItems/kitchen_roll.jpg",
+                    "quantity": 19,
+                    "old_price":  43.92,
+                    "current_price":  43.92
+                }, 
+                {
+                    "itemId": 21,
+                    "categoryId": 6,
+                    "name": "Paper Plates",
+                    "dimension": "10 x 200 each",
+                    "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's",
+                    "image_path": "/MiscellaneousItems/paper_plates.jpg",
+                    "quantity": 7,
+                    "old_price":  16.19,
+                    "current_price":  16.19 
+                }
+            ]    
+        }
+    ]
+}

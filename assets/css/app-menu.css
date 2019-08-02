@@ -1,0 +1,39 @@
+.app-menu .space-between {
+    flex: 1;
+}
+
+.app-menu a.app-brand-text {
+    font-size: 2em;
+    font-weight: 600;
+}
+
+.app-menu ul.navbar-nav {
+    margin-right: 2em;
+}
+
+.app-menu ul.navbar-nav div.dropdown-menu {
+    margin-bottom: 1em;
+}
+
+.app-menu .shopping-cart-icon-section {
+    margin-right: 2em;
+    position: relative;
+    padding: 5px;
+    width: 50px;
+}
+
+.app-menu .shopping-cart-icon-section .app-shopping-cart-item-counter {
+    position: absolute;
+    right: -5px;
+    top: -5px;
+    background-color: #ffc107;
+    border-radius: 50%;
+    width: 25px;
+    text-align: center;
+    font-weight: 600;
+    box-shadow: 2px 2px 5px #8a8585;
+}
+
+.app-menu .shopping-cart-icon-section a {
+    color: #444444;
+}

@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <base href="/">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+        <title>B2B Food Service</title>
+
+        <!-- Bootstrap CSS-->
+        <link rel="stylesheet" type="text/css" href="/bootstrap-css/bootstrap.min.css">
+
+        <!-- App Font awesome icon library -->
+        <link rel="stylesheet" type="text/css" href="/font-awesome/css/all.min.css">
+
+        <!-- Angular NgDialog CSS -->
+        <link rel="stylesheet" type="text/css" href="/ng-dialog/css/ngDialog.min.css">
+        <link rel="stylesheet" type="text/css" href="/ng-dialog/css/ngDialog-theme-default.min.css">
+
+        <!-- App Custom CSS -->
+        <link rel="stylesheet" type="text/css" href="/assets/css/app.css">
+        <link rel="stylesheet" type="text/css" href="/assets/css/app-menu.css">
+        <link rel="stylesheet" type="text/css" href="/assets/css/app-categories.css">
+        <link rel="stylesheet" type="text/css" href="/assets/css/app-items.css">
+        <link rel="stylesheet" type="text/css" href="/assets/css/app-shopping-cart.css">
+    </head>
+
+    <body>
+        <div class="app-main-container">
+            <div class="app-menu-container">
+                <ng-include src="'/app/views/partial_views/app-menu.html'"></ng-include>
+            </div>
+            <div ng-view></div>
+            <div class="app-footer">
+                <span>All Rights Reserved 2019 <i class="fa fa-copyright"></i></span>
+            </div>
+        </div>
+    </body>
+
+    <!-- jQuery Library -->
+    <script src="/jquery/jquery.min.js" type="text/javascript"></script>
+
+    <!-- Bootstap JS Library -->
+    <script src="/bootstrap-js/bootstrap.min.js" type="text/javascript"></script>
+
+    <!-- Angular and Angular Route Libraries -->
+    <script src="/angular/angular.min.js" type="text/javascript"></script>
+    <script src="/angular-route/angular-route.min.js" type="text/javascript"></script>
+
+    <!-- App Main Module and Route Configuration -->
+    <script src="/app/modules/app-main.module.js" type="text/javascript"></script>
+    <script src="/app/config/router.config.js" type="text/javascript"></script>
+
+    <!-- Angular NgDialog -->
+    <script src="/ng-dialog/js/ngDialog.min.js" type="text/javascript"></script>
+
+    <!-- App Angular Controllers -->
+    <script src="/app/controllers/app-header.controller.js" type="text/javascript"></script>
+    <script src="/app/controllers/app-categories.controller.js" type="text/javascript"></script>
+    <script src="/app/controllers/app-category-items.controller.js" type="text/javascript"></script>
+    <script src="/app/controllers/app-cart-item-list.controller.js" type="text/javascript"></script>
+    <script src="/app/controllers/app-cart-checkout-panel.controller.js" type="text/javascript"></script>
+    <script src="/app/controllers/app-add-to-cart-item-dialog.controller.js" type="text/javascript"></script>
+    <script src="/app/controllers/app-update-item-quantity-dialog.controller.js" type="text/javascript"></script>
+
+    <!-- App Angular Services -->
+    <script src="/app/services/app-items.service.js" type="text/javascript"></script>
+    <script src="/app/services/app-orders.service.js" type="text/javascript"></script>
+
+    <!-- App Class Models -->
+    <script src="/assets/js/models/Category.js" type="text/javascript"></script>
+    <script src="/assets/js/models/Item.js" type="text/javascript"></script>
+    <script src="/assets/js/models/Order.js" type="text/javascript"></script>
+    <script src="/assets/js/models/OrderDetails.js" type="text/javascript"></script>
+    <script src="/assets/js/models/NetAmountDetails.js" type="text/javascript"></script>
+
+    <!-- App Enum -->
+    <script src="/assets/js/enums/CategoryEnum.js" type="text/javascript"></script>
+
+    <!-- App Helper Classes -->
+    <script src="/assets/js/classes/CalculateCategoryItemsAmount.js" type="text/javascript"></script>
+    <script src="/assets/js/classes/CalculateDrinkCategoryAmount.js" type="text/javascript"></script>
+    <script src="/assets/js/classes/CalculateBakingCookingCategoryAmount.js" type="text/javascript"></script>
+    <script src="/assets/js/classes/CalculateSomeCategoriesAmount.js" type="text/javascript"></script>
+    <script src="/assets/js/classes/CalculateAllCategoriesAmount.js" type="text/javascript"></script>
+
+</html>
