@@ -1,4 +1,4 @@
-************************************** OVERVIEW ************************************** 
+## OVERVIEW
 
 B2B Food Service Web App
 
@@ -14,7 +14,7 @@ Following web technologies/libraries have been used to develop the web applicati
 6) JSON files for mock data storage 
 
 
-************************************** PRERQUISITES ************************************** 
+## PRERQUISITES
 
 Before setting up the project, make sure you have node JS installed on your machine because this project uses npm package manager.
 Download Node JS here: https://nodejs.org/en/
@@ -22,7 +22,7 @@ Download Node JS here: https://nodejs.org/en/
 
 
 
-************************************** INSTALLATION PROCESS **************************************
+## INSTALLATION PROCESS
 
 1) Assuming at this points, Node JS has already been installed on your local machine
 2) Open command prompt and go to the project file directory
